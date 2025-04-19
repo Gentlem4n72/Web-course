@@ -1,0 +1,41 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+body * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > h1 {
+    color: cadetblue;
+}
+
+p {
+    background-color: cadetblue;
+    font-size: 25px;
+    width: 750px;
+    text-align: center;
+}
+
+#flex-container {
+    background-color: rgb(250, 250, 210);
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    font-size: 16px;
+    width: 725px;
+    border: 1px solid black;
+}
+
+.link {
+    padding: 25px;
+
+}
+
+.image {
+    display: block;
+    width: 75%;
+}

@@ -26,9 +26,17 @@
             <div class="link">
                 <a href="https://github.com/Gentlem4n72" target="_blank"> link to my GitHub</a>
             </div>
-            <div class="image-container">
-                <img class="image" src="image.png">
-            </div>
+            <div id="carousel-container" class="image-container"></div>
+            <script src="index.js"></script>
+            <script>
+            const imgUrls = [
+                "image.png",
+                "image2.jpg",
+                "image3.webp"
+            ];
+            
+            createCarousel(imgUrls, "#carousel-container");
+            </script>
         </section>
     </body>
 </html>

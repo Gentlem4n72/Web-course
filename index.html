@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -27,6 +26,30 @@
                 <a href="https://github.com/Gentlem4n72" target="_blank"> link to my GitHub</a>
             </div>
             <div id="carousel-container" class="image-container"></div>
+            <form id="imperial-form" class="form-container">
+                <h2>Join the Imperial Guard</h2>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message" id="name-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message" id="email-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <span class="error-message" id="password-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="planet">Home Planet:</label>
+                    <input type="text" id="planet" name="planet" required>
+                    <span class="error-message" id="planet-error"></span>
+                </div>
+                <button type="submit">Enlist Now</button>
+            </form>
             <script src="index.js"></script>
             <script>
             const imgUrls = [
